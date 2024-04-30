@@ -1,0 +1,44 @@
+/* tab1.page.scss */
+
+ion-header {
+    --background: #000000c2;
+    color: #fff; /* White text color */
+}
+
+ion-title {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 2rem; /* 32px */
+    font-weight: bold;
+    font-style: italic;
+    margin: 15px 10px 10px; /* Top 15px, Right/Left 10px, Bottom 10px */
+}
+
+ion-content {
+    padding: 20px; /* Add padding for content */
+}
+
+button {
+    font-size: 1.2rem; /* 20px */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    border: 2px solid black;
+    background-color: rgb(206, 222, 230);
+    width: 60%; /* Adjust width for responsiveness */
+    height: 50px;
+    margin: 20px auto; /* Center horizontally with 20px top/bottom margin */
+    border-radius: 30px;
+    color: black;
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition on hover */
+}
+
+button:hover {
+    background-color: rgb(7, 108, 148);
+    color: #fff; /* White text color on hover */
+}
+
+ion-img {
+    display: block; /* Ensure image is displayed as block element */
+    max-width: 100%; /* Ensure image does not exceed container width */
+    height: auto; /* Maintain aspect ratio */
+    margin: 20px auto; /* Center horizontally with 20px top/bottom margin */
+}

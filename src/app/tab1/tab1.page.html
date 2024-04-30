@@ -1,0 +1,14 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      Camera
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+<ion-content>
+  <br><br>
+  <button expand="full" (click)="takePhoto()" style="margin-left: 80px;">Open Gallery</button><br>
+  <button expand="full" (click)="openGallery()" style="margin-left:80px;">Take Phtoto</button>
+  <br><br>
+  <ion-img *ngIf="photoTaken" [src]="photoTaken"></ion-img>
+</ion-content>

@@ -1,0 +1,16 @@
+// For information on how to create your own theme, please see:
+// http://ionicframework.com/docs/theming/
+// src/theme/variables.scss
+
+// src/theme/variables.scss
+
+:root {
+    // Light theme
+    --ion-background-color: #ffffff;
+    --ion-text-color: #000000;
+  
+    // Dark theme
+    --ion-background-color-dark: #000000; // Override dark theme background color
+    --ion-text-color-dark: #ffffff; // Override dark theme text color
+  }
+  
